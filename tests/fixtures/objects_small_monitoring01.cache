@@ -1,0 +1,10 @@
+define host {
+	host_name	awesome.host
+	address	10.3.147.5
+	}
+
+define service {
+	host_name	awesome.host
+	service_description	Zabbix Agent TCP
+	}
+

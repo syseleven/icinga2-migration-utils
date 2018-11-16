@@ -1,0 +1,40 @@
+servicestatus {
+	host_name=awesome.host
+	service_description=Zombie Proc
+	}
+
+servicestatus {
+	host_name=awesome.host
+	service_description=APT
+	}
+
+hostdowntime {
+	host_name=awesome.host
+	downtime_id=18597
+	entry_time=1476092629
+	start_time=1476092609
+	end_time=1633859009
+	triggered_by=0
+	fixed=1
+	duration=157766400
+	is_in_effect=1
+	author=Jon Doe
+	comment=74864
+	trigger_time=1476092629
+	}
+
+servicedowntime {
+	host_name=awesome.host
+	service_description=Zombie Proc
+	downtime_id=18598
+	entry_time=1476092631
+	start_time=1476092609
+	end_time=1633859009
+	triggered_by=0
+	fixed=1
+	duration=157766400
+	is_in_effect=1
+	author=Jon Doe
+	comment=74864
+	trigger_time=1476092632
+	}

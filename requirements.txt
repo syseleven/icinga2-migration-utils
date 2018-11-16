@@ -1,0 +1,6 @@
+click==6.7
+boltons==17.1.0
+nested-dict==1.61
+colorlog==3.1.0
+-e git+git@github.com:syseleven/python-icinga2api.git#egg=python-icinga2api
+progressbar2
